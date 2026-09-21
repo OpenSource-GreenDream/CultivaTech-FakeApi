@@ -1,0 +1,564 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "emailAddress": "juanperez@fundoelsol.pe",
+      "password_hash": "$2a$12$e89A1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5",
+      "created_at": "2026-01-15T08:30:00Z",
+      "updated_at": "2026-09-20T10:15:00Z"
+    },
+    {
+      "id": 2,
+      "emailAddress": "mariarodriguez@agrovalle.pe",
+      "password_hash": "$2a$12$z9y8x7w6v5u4t3s2r1q0p9o8n7m6l5k4j3i2h1g0f9e8d7c6b5a4",
+      "created_at": "2026-02-01T09:00:00Z",
+      "updated_at": "2026-09-18T14:22:00Z"
+    },
+    {
+      "id": 3,
+      "emailAddress": "carlosquispe@fundoandino.pe",
+      "password_hash": "$2a$12$a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z",
+      "created_at": "2026-03-10T11:20:00Z",
+      "updated_at": "2026-09-15T16:00:00Z"
+    },
+    {
+      "id": 4,
+      "emailAddress": "luciaflores@agrolacosta.pe",
+      "password_hash": "$2a$12$m1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6c7d8e9f0g1h2i3j4k",
+      "created_at": "2026-04-05T07:45:00Z",
+      "updated_at": "2026-09-10T12:30:00Z"
+    },
+    {
+      "id": 5,
+      "emailAddress": "pedrocastro@fundoelolivo.pe",
+      "password_hash": "$2a$12$q1w2e3r4t5y6u7i8o9p0a1s2d3f4g5h6j7k8l9z0xc1v2b3n4",
+      "created_at": "2026-05-12T14:10:00Z",
+      "updated_at": "2026-09-19T08:05:00Z"
+    }
+  ],
+  "profiles": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "fundo_name": "Fundo El Sol",
+      "contact_phone": "+51987654321",
+      "moisture_threshold": 25.5,
+      "temp_threshold": 32.0,
+      "created_at": "2026-01-15T08:35:00Z",
+      "updated_at": "2026-09-20T10:15:00Z"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "fundo_name": "Agropecuaria Valle Verde",
+      "contact_phone": "+51912345678",
+      "moisture_threshold": 30.0,
+      "temp_threshold": 28.5,
+      "created_at": "2026-02-01T09:05:00Z",
+      "updated_at": "2026-09-18T14:22:00Z"
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "fundo_name": "Agrícola Los Andes",
+      "contact_phone": "+51934567890",
+      "moisture_threshold": 22.0,
+      "temp_threshold": 26.0,
+      "created_at": "2026-03-10T11:25:00Z",
+      "updated_at": "2026-09-15T16:00:00Z"
+    },
+    {
+      "id": 4,
+      "user_id": 4,
+      "fundo_name": "Campos de la Costa",
+      "contact_phone": "+51945678901",
+      "moisture_threshold": 28.0,
+      "temp_threshold": 34.0,
+      "created_at": "2026-04-05T07:50:00Z",
+      "updated_at": "2026-09-10T12:30:00Z"
+    },
+    {
+      "id": 5,
+      "user_id": 5,
+      "fundo_name": "Fundo El Olivo",
+      "contact_phone": "+51956789012",
+      "moisture_threshold": 20.0,
+      "temp_threshold": 30.0,
+      "created_at": "2026-05-12T14:15:00Z",
+      "updated_at": "2026-09-19T08:05:00Z"
+    }
+  ],
+  "fields": [
+    {
+      "id": 1,
+      "profile_id": 1,
+      "name": "Lote Papa Amarilla A1",
+      "size_m2": 15000.0,
+      "soil_type": "Franco-Arenoso",
+      "latitude": -12.046374,
+      "longitude": -77.042793,
+      "created_at": "2026-01-16T10:00:00Z",
+      "updated_at": "2026-08-10T11:30:00Z"
+    },
+    {
+      "id": 2,
+      "profile_id": 1,
+      "name": "Lote Maíz Dulce B2",
+      "size_m2": 22500.5,
+      "soil_type": "Arcilloso",
+      "latitude": -12.048110,
+      "longitude": -77.041220,
+      "created_at": "2026-01-16T10:15:00Z",
+      "updated_at": "2026-08-10T11:30:00Z"
+    },
+    {
+      "id": 3,
+      "profile_id": 2,
+      "name": "Sector Paltos Hass 01",
+      "size_m2": 50000.0,
+      "soil_type": "Limoso",
+      "latitude": -13.163056,
+      "longitude": -74.223889,
+      "created_at": "2026-02-02T11:00:00Z",
+      "updated_at": "2026-09-01T15:45:00Z"
+    },
+    {
+      "id": 4,
+      "profile_id": 3,
+      "name": "Campo Quinua Real Q3",
+      "size_m2": 35000.0,
+      "soil_type": "Franco",
+      "latitude": -15.840221,
+      "longitude": -70.021880,
+      "created_at": "2026-03-12T09:30:00Z",
+      "updated_at": "2026-09-05T10:00:00Z"
+    },
+    {
+      "id": 5,
+      "profile_id": 4,
+      "name": "Lote Espárrago Verde C1",
+      "size_m2": 40000.0,
+      "soil_type": "Arenoso",
+      "latitude": -8.111677,
+      "longitude": -79.028667,
+      "created_at": "2026-04-10T08:00:00Z",
+      "updated_at": "2026-09-12T14:20:00Z"
+    }
+  ],
+  "devices": [
+    {
+      "id": 1,
+      "field_id": 1,
+      "mac_address": "A4:CF:12:89:56:01",
+      "status": "ACTIVE",
+      "last_sync": "2026-09-21T07:15:00Z",
+      "created_at": "2026-01-20T12:00:00Z",
+      "updated_at": "2026-09-21T07:15:00Z"
+    },
+    {
+      "id": 2,
+      "field_id": 2,
+      "mac_address": "A4:CF:12:89:56:02",
+      "status": "WARNING_BATTERY",
+      "last_sync": "2026-09-21T06:30:00Z",
+      "created_at": "2026-01-20T12:30:00Z",
+      "updated_at": "2026-09-21T06:30:00Z"
+    },
+    {
+      "id": 3,
+      "field_id": 3,
+      "mac_address": "B8:27:EB:41:98:A3",
+      "status": "ACTIVE",
+      "last_sync": "2026-09-21T07:20:00Z",
+      "created_at": "2026-02-05T14:00:00Z",
+      "updated_at": "2026-09-21T07:20:00Z"
+    },
+    {
+      "id": 4,
+      "field_id": 4,
+      "mac_address": "C8:2E:47:11:22:B4",
+      "status": "ACTIVE",
+      "last_sync": "2026-09-21T05:45:00Z",
+      "created_at": "2026-03-15T10:00:00Z",
+      "updated_at": "2026-09-21T05:45:00Z"
+    },
+    {
+      "id": 5,
+      "field_id": 5,
+      "mac_address": "D4:F5:13:99:AA:C5",
+      "status": "OFFLINE",
+      "last_sync": "2026-09-19T18:00:00Z",
+      "created_at": "2026-04-12T11:30:00Z",
+      "updated_at": "2026-09-19T18:00:00Z"
+    }
+  ],
+  "reports": [
+    {
+      "id": 1,
+      "device_id": 1,
+      "generated_at": "2026-09-21T07:00:00Z",
+      "mean_value": 22.4,
+      "variance": 1.15,
+      "standard_deviation": 1.07,
+      "technical_interpretation": "Nivel de humedad del suelo óptimo para la fase de tuberización de la papa. Sin riesgo inminente de estrés hídrico.",
+      "created_at": "2026-09-21T07:01:00Z",
+      "updated_at": "2026-09-21T07:01:00Z"
+    },
+    {
+      "id": 2,
+      "device_id": 2,
+      "generated_at": "2026-09-21T06:00:00Z",
+      "mean_value": 18.2,
+      "variance": 3.42,
+      "standard_deviation": 1.85,
+      "technical_interpretation": "Alerta: Humedad por debajo del umbral recomendado (25.5%). Se sugiere programar riego suplementario.",
+      "created_at": "2026-09-21T06:01:00Z",
+      "updated_at": "2026-09-21T06:01:00Z"
+    },
+    {
+      "id": 3,
+      "device_id": 3,
+      "generated_at": "2026-09-21T07:15:00Z",
+      "mean_value": 29.1,
+      "variance": 0.85,
+      "standard_deviation": 0.92,
+      "technical_interpretation": "Condiciones estables en el lote de palto Hass. Temperatura de suelo dentro del rango de absorción de nutrientes.",
+      "created_at": "2026-09-21T07:16:00Z",
+      "updated_at": "2026-09-21T07:16:00Z"
+    },
+    {
+      "id": 4,
+      "device_id": 4,
+      "generated_at": "2026-09-21T05:30:00Z",
+      "mean_value": 15.8,
+      "variance": 4.10,
+      "standard_deviation": 2.02,
+      "technical_interpretation": "Suelo seco detectado en la zona de quinua. Iniciar protocolo de riego por goteo preventivo.",
+      "created_at": "2026-09-21T05:31:00Z",
+      "updated_at": "2026-09-21T05:31:00Z"
+    },
+    {
+      "id": 5,
+      "device_id": 5,
+      "generated_at": "2026-09-19T17:55:00Z",
+      "mean_value": 26.3,
+      "variance": 2.05,
+      "standard_deviation": 1.43,
+      "technical_interpretation": "Última lectura registrada previa a la desconexión. Parámetros de humedad dentro de límites normales.",
+      "created_at": "2026-09-19T18:00:00Z",
+      "updated_at": "2026-09-19T18:00:00Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Nodo Sensor IoT CultivaTech V1",
+      "description": "Sensor de humedad, acidez pH y temperatura de suelo con conectividad LoRaWAN / GSM.",
+      "price": 450.00,
+      "type": "HARDWARE",
+      "image_url": "https://cultivatech.pe/assets/products/node-v1.png",
+      "created_at": "2026-01-01T00:00:00Z",
+      "updated_at": "2026-08-01T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Plan Pro: Analítica Predictiva de Cosecha",
+      "description": "Suscripción mensual para modelos de proyección de rendimientos mediante IA.",
+      "price": 89.90,
+      "type": "SUBSCRIPTION",
+      "image_url": "https://cultivatech.pe/assets/products/plan-pro.png",
+      "created_at": "2026-01-01T00:00:00Z",
+      "updated_at": "2026-08-01T10:00:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Gateway LoRaWAN Agrícola multicanal",
+      "description": "Estación base de alta cobertura para conectar hasta 50 sensores en campo abierto.",
+      "price": 1200.00,
+      "type": "HARDWARE",
+      "image_url": "https://cultivatech.pe/assets/products/gateway-lora.png",
+      "created_at": "2026-01-15T00:00:00Z",
+      "updated_at": "2026-08-10T12:00:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Kit Sonda NPK de Suelo",
+      "description": "Sensor multiespectral para la medición en tiempo real de Nitrógeno, Fósforo y Potasio.",
+      "price": 680.00,
+      "type": "HARDWARE",
+      "image_url": "https://cultivatech.pe/assets/products/sonda-npk.png",
+      "created_at": "2026-02-01T00:00:00Z",
+      "updated_at": "2026-08-15T09:00:00Z"
+    },
+    {
+      "id": 5,
+      "name": "Plan Enterprise: Multi-Fundo y API",
+      "description": "Suscripción anual con soporte prioritario e integración con ERPs agrícolas.",
+      "price": 2500.00,
+      "type": "SUBSCRIPTION",
+      "image_url": "https://cultivatech.pe/assets/products/plan-enterprise.png",
+      "created_at": "2026-02-15T00:00:00Z",
+      "updated_at": "2026-08-20T11:00:00Z"
+    }
+  ],
+  "inventories": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "stock_quantity": 45,
+      "warehouse_location": "Almacén Central Lima - Estante B3",
+      "created_at": "2026-01-01T00:00:00Z",
+      "updated_at": "2026-09-15T09:30:00Z"
+    },
+    {
+      "id": 2,
+      "product_id": 2,
+      "stock_quantity": 99999,
+      "warehouse_location": "Digital Cloud Provisioning",
+      "created_at": "2026-01-01T00:00:00Z",
+      "updated_at": "2026-09-15T09:30:00Z"
+    },
+    {
+      "id": 3,
+      "product_id": 3,
+      "stock_quantity": 12,
+      "warehouse_location": "Almacén Central Lima - Estante A1",
+      "created_at": "2026-01-15T00:00:00Z",
+      "updated_at": "2026-09-10T14:00:00Z"
+    },
+    {
+      "id": 4,
+      "product_id": 4,
+      "stock_quantity": 28,
+      "warehouse_location": "Almacén Arequipa - Estante C2",
+      "created_at": "2026-02-01T00:00:00Z",
+      "updated_at": "2026-09-18T10:15:00Z"
+    },
+    {
+      "id": 5,
+      "product_id": 5,
+      "stock_quantity": 99999,
+      "warehouse_location": "Digital Cloud Provisioning",
+      "created_at": "2026-02-15T00:00:00Z",
+      "updated_at": "2026-09-20T16:30:00Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "profile_id": 1,
+      "product_id": 1,
+      "product_name": "Nodo Sensor IoT CultivaTech V1",
+      "quantity": 2,
+      "total_amount": 900.00,
+      "status": 1,
+      "payment_method": 2,
+      "is_subscription": false,
+      "created_at": "2026-01-20T11:00:00Z",
+      "updated_at": "2026-01-20T11:05:00Z"
+    },
+    {
+      "id": 2,
+      "profile_id": 1,
+      "product_id": 2,
+      "product_name": "Plan Pro: Analítica Predictiva de Cosecha",
+      "quantity": 1,
+      "total_amount": 89.90,
+      "status": 1,
+      "payment_method": 1,
+      "is_subscription": true,
+      "created_at": "2026-02-01T10:00:00Z",
+      "updated_at": "2026-02-01T10:01:00Z"
+    },
+    {
+      "id": 3,
+      "profile_id": 2,
+      "product_id": 3,
+      "product_name": "Gateway LoRaWAN Agrícola multicanal",
+      "quantity": 1,
+      "total_amount": 1200.00,
+      "status": 1,
+      "payment_method": 2,
+      "is_subscription": false,
+      "created_at": "2026-02-05T15:30:00Z",
+      "updated_at": "2026-02-05T15:35:00Z"
+    },
+    {
+      "id": 4,
+      "profile_id": 3,
+      "product_id": 4,
+      "product_name": "Kit Sonda NPK de Suelo",
+      "quantity": 3,
+      "total_amount": 2040.00,
+      "status": 1,
+      "payment_method": 1,
+      "is_subscription": false,
+      "created_at": "2026-03-15T09:10:00Z",
+      "updated_at": "2026-03-15T09:12:00Z"
+    },
+    {
+      "id": 5,
+      "profile_id": 4,
+      "product_id": 5,
+      "product_name": "Plan Enterprise: Multi-Fundo y API",
+      "quantity": 1,
+      "total_amount": 2500.00,
+      "status": 1,
+      "payment_method": 2,
+      "is_subscription": true,
+      "created_at": "2026-04-12T16:00:00Z",
+      "updated_at": "2026-04-12T16:02:00Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "profile_id": 1,
+      "title": "Alerta de Humedad Baja",
+      "message": "El sensor A4:CF:12:89:56:02 en 'Lote Maíz Dulce B2' detectó niveles de humedad por debajo del 25.5%.",
+      "is_read": false,
+      "is_alert": true,
+      "created_at": "2026-09-21T06:01:10Z",
+      "updated_at": "2026-09-21T06:01:10Z"
+    },
+    {
+      "id": 2,
+      "profile_id": 1,
+      "title": "Informe Semanal Disponible",
+      "message": "Se ha generado el reporte predictivo de cosecha para 'Lote Papa Amarilla A1'.",
+      "is_read": true,
+      "is_alert": false,
+      "created_at": "2026-09-20T08:00:00Z",
+      "updated_at": "2026-09-20T09:12:00Z"
+    },
+    {
+      "id": 3,
+      "profile_id": 2,
+      "title": "Nivel Óptimo Alcanzado",
+      "message": "El 'Sector Paltos Hass 01' presenta valores estables de acidez y nutrientes.",
+      "is_read": true,
+      "is_alert": false,
+      "created_at": "2026-09-18T11:20:00Z",
+      "updated_at": "2026-09-18T12:00:00Z"
+    },
+    {
+      "id": 4,
+      "profile_id": 3,
+      "title": "Batería Baja en Nodo",
+      "message": "El sensor C8:2E:47:11:22:B4 reporta 15% de batería restante.",
+      "is_read": false,
+      "is_alert": true,
+      "created_at": "2026-09-21T05:00:00Z",
+      "updated_at": "2026-09-21T05:00:00Z"
+    },
+    {
+      "id": 5,
+      "profile_id": 4,
+      "title": "Pérdida de Conexión IoT",
+      "message": "El dispositivo D4:F5:13:99:AA:C5 no emite señal desde hace 48 horas.",
+      "is_read": false,
+      "is_alert": true,
+      "created_at": "2026-09-19T18:05:00Z",
+      "updated_at": "2026-09-19T18:05:00Z"
+    }
+  ],
+  "community_profiles": [
+    {
+      "id": 1,
+      "profile_id": 1,
+      "nickname": "JuanAgroSol",
+      "reputation_score": 120,
+      "public_bio": "Agricultor enfocado en optimización de cultivos de papa y maíz en la sierra central.",
+      "visibility_status": 1,
+      "created_at": "2026-01-16T12:00:00Z",
+      "updated_at": "2026-07-10T16:20:00Z"
+    },
+    {
+      "id": 2,
+      "profile_id": 2,
+      "nickname": "MariaValleVerde",
+      "reputation_score": 250,
+      "public_bio": "Especialista en palto de exportación y tecnificación de riego por goteo.",
+      "visibility_status": 1,
+      "created_at": "2026-02-02T14:30:00Z",
+      "updated_at": "2026-08-05T11:10:00Z"
+    },
+    {
+      "id": 3,
+      "profile_id": 3,
+      "nickname": "CarlosAndesBio",
+      "reputation_score": 95,
+      "public_bio": "Productor orgánico de quinua y granos andinos a gran altura.",
+      "visibility_status": 1,
+      "created_at": "2026-03-11T10:15:00Z",
+      "updated_at": "2026-08-12T09:00:00Z"
+    },
+    {
+      "id": 4,
+      "profile_id": 4,
+      "nickname": "LuciaCostaTech",
+      "reputation_score": 310,
+      "public_bio": "Ingeniera agrónoma dedicada al cultivo intensivo de espárragos y arándanos.",
+      "visibility_status": 1,
+      "created_at": "2026-04-06T11:00:00Z",
+      "updated_at": "2026-09-01T15:30:00Z"
+    },
+    {
+      "id": 5,
+      "profile_id": 5,
+      "nickname": "PedroElOlivo",
+      "reputation_score": 60,
+      "public_bio": "Agricultor tradicional en proceso de adopción de tecnologías Agricultura 4.0.",
+      "visibility_status": 1,
+      "created_at": "2026-05-13T09:00:00Z",
+      "updated_at": "2026-08-25T14:10:00Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "author_profile_id": 2,
+      "target_profile_id": 1,
+      "content": "Excelente gestión de humedad en papa amarilla. ¿Qué fertilización foliar aplicaste en la fase inicial?",
+      "rating": 5,
+      "created_at": "2026-09-10T14:00:00Z",
+      "updated_at": "2026-09-10T14:00:00Z"
+    },
+    {
+      "id": 2,
+      "author_profile_id": 1,
+      "target_profile_id": 2,
+      "content": "Muchas gracias María, utilicé nitrato de potasio balanceado de acuerdo con las lecturas de los sensores.",
+      "rating": 5,
+      "created_at": "2026-09-11T09:15:00Z",
+      "updated_at": "2026-09-11T09:15:00Z"
+    },
+    {
+      "id": 3,
+      "author_profile_id": 4,
+      "target_profile_id": 3,
+      "content": "Muy interesante el manejo de humedad en quinua. ¿Tuviste problemas de salinidad en el suelo este mes?",
+      "rating": 4,
+      "created_at": "2026-09-14T16:20:00Z",
+      "updated_at": "2026-09-14T16:20:00Z"
+    },
+    {
+      "id": 4,
+      "author_profile_id": 3,
+      "target_profile_id": 4,
+      "content": "Hola Lucía, con los sensores logramos monitorear el drenaje a tiempo para evitar la acumulación de sales.",
+      "rating": 5,
+      "created_at": "2026-09-15T10:30:00Z",
+      "updated_at": "2026-09-15T10:30:00Z"
+    },
+    {
+      "id": 5,
+      "author_profile_id": 5,
+      "target_profile_id": 2,
+      "content": "Recomiendo totalmente el asesoramiento de María sobre sistemas de riego automatizado por goteo.",
+      "rating": 5,
+      "created_at": "2026-09-18T11:45:00Z",
+      "updated_at": "2026-09-18T11:45:00Z"
+    }
+  ]
+}
