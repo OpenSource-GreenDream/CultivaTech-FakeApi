@@ -720,5 +720,57 @@
     { "id": 28, "profile_id": 5, "type": "NEW_REVIEW", "field_id": null, "enabled": true, "created_at": "2026-09-22T00:00:00Z", "updated_at": "2026-09-22T00:00:00Z" },
     { "id": 29, "profile_id": 5, "type": "PRODUCT_OF_INTEREST", "field_id": null, "enabled": true, "created_at": "2026-09-22T00:00:00Z", "updated_at": "2026-09-22T00:00:00Z" },
     { "id": 30, "profile_id": 5, "type": "OFFER_OR_STOCK_CHANGE", "field_id": null, "enabled": true, "created_at": "2026-09-22T00:00:00Z", "updated_at": "2026-09-22T00:00:00Z" }
+  ],
+  "harvest_projections": [
+    {
+      "id": 1,
+      "device_id": 1,
+      "crop_type": "Papa Amarilla",
+      "projected_yield_tons": 24.5,
+      "historical_yield_tons": 21.0,
+      "projection_period": "2026-Q4",
+      "confidence_score": 92.5,
+      "created_at": "2026-09-20T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "device_id": 2,
+      "crop_type": "Maíz Dulce",
+      "projected_yield_tons": 18.2,
+      "historical_yield_tons": 19.5,
+      "projection_period": "2026-Q4",
+      "confidence_score": 84.0,
+      "created_at": "2026-09-20T08:30:00Z"
+    },
+    {
+      "id": 3,
+      "device_id": 3,
+      "crop_type": "Palto Hass",
+      "projected_yield_tons": 45.0,
+      "historical_yield_tons": 40.2,
+      "projection_period": "2026-Q4",
+      "confidence_score": 95.0,
+      "created_at": "2026-09-18T10:00:00Z"
+    },
+    {
+      "id": 4,
+      "device_id": 4,
+      "crop_type": "Quinua Real",
+      "projected_yield_tons": 12.8,
+      "historical_yield_tons": 14.1,
+      "projection_period": "2026-Q4",
+      "confidence_score": 78.5,
+      "created_at": "2026-09-19T09:15:00Z"
+    },
+    {
+      "id": 5,
+      "device_id": 5,
+      "crop_type": "Espárrago Verde",
+      "projected_yield_tons": 32.0,
+      "historical_yield_tons": 31.0,
+      "projection_period": "2026-Q4",
+      "confidence_score": 88.0,
+      "created_at": "2026-09-19T11:00:00Z"
+    }
   ]
 }
