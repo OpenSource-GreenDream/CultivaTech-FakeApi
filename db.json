@@ -312,7 +312,51 @@
       "technical_interpretation": "Última lectura registrada previa a la desconexión. Parámetros de humedad dentro de límites normales.",
       "created_at": "2026-09-19T18:00:00Z",
       "updated_at": "2026-09-19T18:00:00Z"
-    }
+    },
+    {
+      "id": 10,
+      "device_id": 1,
+      "generated_at": "2026-09-17T07:00:00Z",
+      "mean_value": 20.1,
+      "variance": 2.45,
+      "standard_deviation": 1.56,
+      "technical_interpretation": "Humedad inicial baja tras periodo seco. Se recomendó riego de activación.",
+      "created_at": "2026-09-17T07:05:00Z",
+      "updated_at": "2026-09-17T07:05:00Z"
+    },
+    {
+      "id": 11,
+      "device_id": 1,
+      "generated_at": "2026-09-18T07:00:00Z",
+      "mean_value": 21.5,
+      "variance": 1.80,
+      "standard_deviation": 1.34,
+      "technical_interpretation": "Incremento progresivo de humedad tras aplicación de riego suplementario.",
+      "created_at": "2026-09-18T07:05:00Z",
+      "updated_at": "2026-09-18T07:05:00Z"
+    },
+    {
+      "id": 12,
+      "device_id": 1,
+      "generated_at": "2026-09-19T07:00:00Z",
+      "mean_value": 23.0,
+      "variance": 1.30,
+      "standard_deviation": 1.14,
+      "technical_interpretation": "Estabilización de los niveles de agua en el suelo del lote.",
+      "created_at": "2026-09-19T07:05:00Z",
+      "updated_at": "2026-09-19T07:05:00Z"
+    },
+    {
+      "id": 13,
+      "device_id": 1,
+      "generated_at": "2026-09-20T07:00:00Z",
+      "mean_value": 22.8,
+      "variance": 1.20,
+      "standard_deviation": 1.09,
+      "technical_interpretation": "Mantenimiento de parámetros óptimos para la absorción de nutrientes.",
+      "created_at": "2026-09-20T07:05:00Z",
+      "updated_at": "2026-09-20T07:05:00Z"
+    }  
   ],
   "products": [
     {
