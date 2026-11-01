@@ -422,7 +422,6 @@
       "name": "Semilla Maíz Híbrido XL",
       "description": "Semillas de alto rendimiento resistentes a sequías.",
       "price": 120.50,
-      "type": "Semilla",
       "image_url": "https://picsum.photos/200/200?random=1",
       "created_at": "2026-02-15T10:00:00.000Z",
       "updated_at": "2026-02-15T10:00:00.000Z"
@@ -433,7 +432,6 @@
       "name": "Fertilizante Foliar BioAgro",
       "description": "Mezcla concentrada de nitrógeno y potasio para palto.",
       "price": 85.00,
-      "type": "Fertilizante",
       "image_url": "https://picsum.photos/200/200?random=2",
       "created_at": "2026-02-18T11:00:00.000Z",
       "updated_at": "2026-02-18T11:00:00.000Z"
@@ -444,7 +442,6 @@
       "name": "Sensor de Humedad IoT V2",
       "description": "Sensor de suelo capacitivo estanco con transmisor LoRaWAN.",
       "price": 250.00,
-      "type": "Hardware",
       "image_url": "https://picsum.photos/200/200?random=3",
       "created_at": "2026-03-01T15:00:00.000Z",
       "updated_at": "2026-03-01T15:00:00.000Z"
@@ -455,7 +452,6 @@
       "name": "Abono Orgánico Granulado",
       "description": "Abono de liberación lenta para hortalizas y frutales.",
       "price": 45.00,
-      "type": "Fertilizante",
       "image_url": "https://picsum.photos/200/200?random=4",
       "created_at": "2026-03-02T09:00:00.000Z",
       "updated_at": "2026-03-02T09:00:00.000Z"
@@ -465,45 +461,45 @@
     {
       "id": 1,
       "profile_id": 1,
+      "field_id": 1,
       "product_id": 1,
       "stock_quantity": 50,
-      "warehouse_location": "Almacén Principal Santa Rosa",
       "created_at": "2026-02-20T08:00:00.000Z",
       "updated_at": "2026-02-20T08:00:00.000Z"
     },
     {
       "id": 2,
       "profile_id": 1,
+      "field_id": 2,
       "product_id": 2,
       "stock_quantity": 15,
-      "warehouse_location": "Bodega Auxiliar Lote 2",
       "created_at": "2026-02-22T09:00:00.000Z",
       "updated_at": "2026-02-22T09:00:00.000Z"
     },
     {
       "id": 3,
       "profile_id": 2,
+      "field_id": 3,
       "product_id": 3,
       "stock_quantity": 8,
-      "warehouse_location": "Depósito Valle Verde",
       "created_at": "2026-03-05T10:00:00.000Z",
       "updated_at": "2026-03-05T10:00:00.000Z"
     },
     {
       "id": 4,
       "profile_id": 1,
+      "field_id": 1,
       "product_id": 4,
       "stock_quantity": 3,
-      "warehouse_location": "Almacén Principal Santa Rosa",
       "created_at": "2026-03-06T11:00:00.000Z",
       "updated_at": "2026-03-06T11:00:00.000Z"
     },
     {
       "id": 5,
       "profile_id": 2,
+      "field_id": 3,
       "product_id": 4,
       "stock_quantity": 0,
-      "warehouse_location": "Depósito Valle Verde",
       "created_at": "2026-03-07T12:00:00.000Z",
       "updated_at": "2026-03-07T12:00:00.000Z"
     }
